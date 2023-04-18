@@ -1,0 +1,21 @@
+/* Colors */
+/*https://bowndsranches.com/ Burnt Orange #C45408  and Black  #171411 */
+
+/* Fonts */
+/*https://bowndsranches.com/ Font: GT America Cm Bd */
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+
+.title{
+    background-color: #171411;
+    color: #C45408;
+    font-family: 'Unbounded', cursive;
+    height: 100vh;
+    position: relative;
+}
+h1{
+    font-size: 7rem;
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+}
