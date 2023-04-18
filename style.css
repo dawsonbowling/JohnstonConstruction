@@ -6,6 +6,20 @@
 /* font-family: 'Oswald', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
 
+/* HEADINGS */
+h1{
+    font-size: 7rem;
+    position: absolute;
+    top: 60%;
+}
+h2{
+    font-size: 5rem;
+}
+h3{
+    font-size: 3rem;
+}
+
+/* TITLE */
 .title{
     background-color: #171411;
     color: #C45408;
@@ -13,9 +27,33 @@
     height: 100vh;
     position: relative;
 }
-h1{
-    font-size: 7rem;
-    z-index: 1;
-    position: absolute;
-    top: 60%;
+
+
+/* ABOUT */
+.about{
+    background-color: white;
+    color: #171411;
+    font-family: 'Unbounded', cursive;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.premier{
+    margin-top: 100px;
+}
+.owner{
+    margin-top: 200px;
+}
+
+/* CONTACT */
+.contact{
+    background-color: #171411;
+    color: white;
+    font-family: 'Unbounded', cursive;
+    height: 50vh;
+}
+.contact-text{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
 }
