@@ -4,13 +4,14 @@
 /* Fonts */
 /*https://bowndsranches.com/ Font: GT America Cm Bd */
 /* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Unbounded', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 /* HEADINGS */
+
 h1{
     font-size: 7rem;
-    position: absolute;
-    top: 60%;
 }
 h2{
     font-size: 5rem;
@@ -18,14 +19,26 @@ h2{
 h3{
     font-size: 3rem;
 }
+/* NAVBAR */
+.navbar{
+    background-color: #171411;
+}
+.navbar-brand{
+    color: #C45408;
+}
+.nav-link{
+    color: #C45408;
+}
 
-/* TITLE */
-.title{
+/* TITLE SECTION */
+.title-section{
     background-color: #171411;
     color: #C45408;
-    font-family: 'Unbounded', cursive;
+    display: flex;
+    font-family: 'Unbounded', sans-serif;
     height: 100vh;
-    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 
@@ -33,7 +46,7 @@ h3{
 .about{
     background-color: white;
     color: #171411;
-    font-family: 'Unbounded', cursive;
+    font-family: 'Unbounded', sans-serif;
     height: 100vh;
     position: relative;
     text-align: center;
@@ -49,7 +62,7 @@ h3{
 .contact{
     background-color: #171411;
     color: white;
-    font-family: 'Unbounded', cursive;
+    font-family: 'Unbounded', sans-serif;
     height: 50vh;
 }
 .contact-text{
@@ -57,3 +70,5 @@ h3{
     margin-top: 50px;
     margin-right: 50px;
 }
+
+
