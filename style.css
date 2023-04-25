@@ -8,16 +8,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
-/* HEADINGS */
+body{
+    font-family: 'Oswald', sans-serif;
 
+}
+/* HEADINGS */
 h1{
     font-size: 7rem;
+    font-family: 'Unbounded', sans-serif;
 }
 h2{
     font-size: 5rem;
 }
 h3{
     font-size: 3rem;
+ 
 }
 /* NAVBAR */
 .navbar{
@@ -35,8 +40,7 @@ h3{
     background-color: #171411;
     color: #C45408;
     display: flex;
-    font-family: 'Unbounded', sans-serif;
-    height: 100vh;
+    height: 95vh;
     flex-direction: column;
     justify-content: flex-end;
 }
@@ -46,26 +50,40 @@ h3{
 .about{
     background-color: white;
     color: #171411;
-    font-family: 'Unbounded', sans-serif;
     height: 100vh;
-    position: relative;
-    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.carousel-container{
+    order: 1;
+    margin: auto;
 }
 .premier{
-    margin-top: 100px;
+    order: 0;
+    margin: auto 20px;
+    text-align: center;
 }
 .owner{
-    margin-top: 200px;
+    order: 2;
+    margin: auto 20px;
+    text-align: center;
+
 }
+
+
+
+
 
 /* CONTACT */
 .contact{
     background-color: #171411;
     color: white;
-    font-family: 'Unbounded', sans-serif;
     height: 50vh;
 }
 .contact-text{
+    font-size: 2rem;
     text-align: right;
     margin-top: 50px;
     margin-right: 50px;

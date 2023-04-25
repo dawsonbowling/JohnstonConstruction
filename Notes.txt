@@ -1,0 +1,2 @@
+25 April: Added Carousel
+    Redesigned layout using Grid and Flex
